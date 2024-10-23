@@ -1,0 +1,23 @@
+# Ignorar archivos compilados
+*.o
+*.out
+*.class
+
+# Ignorar directorios de dependencias
+/node_modules
+/vendor
+
+# Ignorar archivos de configuración de entornos locales
+#.env
+#.env.local
+
+# Ignorar archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar logs
+*.log
+
+# Ignorar de VS Code
+.vscode/*
+!.vscode/extensions.json
